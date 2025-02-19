@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     transition-duration: 200ms;
 
 }
@@ -162,6 +162,10 @@ section {
     flex-direction: column;
     gap: 24px;
 } 
+
+.projectItem div:last-child{
+    aspect-ratio: 16/9;
+}
 @media (min-width: 640px){
     
     .statsContainer {
