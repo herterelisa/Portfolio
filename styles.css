@@ -1,6 +1,6 @@
 :root {
     --primary-color: #dbeafe;
-    --secondary-color: #0077b6;
+    --secondary-color: #60a5fa;
     --bg-color: #060d24;
 
 }
@@ -9,7 +9,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600; /* font thickness*/
     transition-duration: 200ms;
 
 }
@@ -21,10 +22,8 @@ body{
     flex-direction: column;
     gap: 72px;
     padding: 14px;
-
-
-
 }
+
 .darkerText {
     color: var(--secondary-color)
 }
@@ -39,7 +38,6 @@ body{
 
 p {
     font-size: 1.05em;
-
 }
 
 header{
@@ -47,7 +45,6 @@ header{
     align-items: center;
     justify-content: space-between;
     gap: 14px;
-
 }
 
 nav{
@@ -75,7 +72,6 @@ section,
 main {
     gap: 64px;
     padding-bottom: 64px;
-
 }
 
 section {
@@ -95,7 +91,7 @@ section {
 
 .imgContainer {
     border-radius: 100%;
-    max-width: 114px;
+    max-width: 200px;  /*photo sizing*/
     overflow: hidden;
 }
 
