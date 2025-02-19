@@ -160,7 +160,7 @@ section {
 .projectItem div:first-child {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 14px;
 } 
 
 .projectItem div:last-child{
@@ -175,6 +175,7 @@ section {
     object-fit: cover;
     border-radius: 8px;
 }
+
 @media (min-width: 640px){
     
     .statsContainer {
