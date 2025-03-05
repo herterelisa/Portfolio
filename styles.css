@@ -2,19 +2,17 @@
     --primary-color: #dbeafe;
     --secondary-color: #60a5fa;
     --bg-color: #060d24;
-
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
     font-weight: 600; /* font thickness*/
     transition-duration: 200ms;
-
 }
-body{
+body {
     background: var(--bg-color);
     color: var(--primary-color);
     min-height: 100vh;
@@ -47,10 +45,10 @@ header{
     gap: 14px;
 }
 
-nav{
+nav {
     color: var(--secondary-color);
     display: flex;
-    gap: 36px;    
+    gap: 32px;    
 }
 
 nav a {
@@ -64,7 +62,7 @@ nav a:hover{
 
 main, 
 section,
-.nameContainer{
+.nameContainer {
     display: flex;
     flex-direction: column;
 }
@@ -160,19 +158,20 @@ section {
     display: flex;
     flex-direction: column;
     gap: 14px;
+    flex: 1;
 } 
 
 .projectItem>div:last-child{
     aspect-ratio: 16/9;
     max-width: 30%;
     overflow: hidden;
+    border-radius: 8px;
 }
 
 .projectItem>div:last-child img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 8px;
 }
 
 .linkContainer {
@@ -203,15 +202,14 @@ section {
     
     .statsContainer {
         flex-direction: row;
-
     }
+    
     .stats {
         gap: 0px;
     }
     .aboutMe {
         width: 80%;
         margin-right: auto;
-
     }
 }
 
